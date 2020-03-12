@@ -1,6 +1,6 @@
 backend:
   name: demo-gatsby-blog
-  repo: TamVuVu/https://github.com/TamVuVu/gatsby-netlify-demo
+  repo: TamVuVu/https://github.com/TamVuVu/gatsby-netlify-demo.git
 
 media_folder: static/assets
 public_folder: assets
