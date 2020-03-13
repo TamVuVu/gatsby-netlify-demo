@@ -1,6 +1,6 @@
 backend:
-  name: demo-gatsby-blog
-  repo: TamVuVu/https://github.com/TamVuVu/gatsby-netlify-demo.git
+  name: github
+  repo: TamVuVu/gatsby-netlify-demo
 
 media_folder: static/assets
 public_folder: assets
@@ -16,3 +16,11 @@ collections:
       - { name: title, label: Title }
       - { name: description, label: Description }
       - { name: body, label: Body, widget: markdown }
+
+
+  - name: layout
+    label: Layout
+    folder: content/layout
+    create: true
+    fields:
+      - { name: header, label: Header}
